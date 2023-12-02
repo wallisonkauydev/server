@@ -12,5 +12,11 @@
       "dest": "src/main.ts",
       "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
     }
-  ]
+  ],
+  "functions": {
+    "src/main.ts": {
+      "memory": 3008,
+      "maxDuration": 30
+    }
+  }
 }
